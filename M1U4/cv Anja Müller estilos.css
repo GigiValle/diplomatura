@@ -1,0 +1,23 @@
+h1 {color: palevioletred;
+    font-style: italic;
+    font-size: 40px;}
+.all {background-color: pink;
+      color: white;
+    font-family: Arial, Helvetica, sans-serif;
+margin: -8px;}
+
+    img {border: 5px solid palevioletred;}
+.form {background-color: palevioletred;
+        color: white;
+        padding: 0;
+    margin: -8px;}
+
+    /*.first {border-bottom: 3px solid palevioletred;}*/
+
+h3 {border-top: 3px dashed palevioletred;}
+
+a {text-decoration: none;}
+a:hover {color: red;
+    text-decoration: none;}
+
+    input:hover {background-color: red;}
