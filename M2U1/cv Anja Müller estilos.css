@@ -1,0 +1,69 @@
+h1 {
+    color: palevioletred;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+
+
+}
+
+body {margin-top: 0px;}
+
+.all {
+    background-color: pink;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: -8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    border: 5px solid palevioletred;
+    border-radius: 30px;
+    box-shadow: 5px 5px 55px black;
+}
+
+.form {
+    background-color: palevioletred;
+    color: white;
+    padding: 0;
+    margin: -8px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.first {border-bottom: 3px solid palevioletred;
+        }
+
+h3 {
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+input:hover {
+    background-color: red;
+}
+
+h4 {padding: 0 0 30px 0;}
+
+.icono {font-size: 50px;
+    padding-top: 30px;}
+
+.icono2 {font-size: 30px;}
+
+textarea {margin-left: 10px;}
+.mailarea {margin-left: 30px;}
+
+/*font-family: 'Lato', sans-serif;*/
