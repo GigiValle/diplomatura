@@ -1,9 +1,17 @@
 .contenedor {
     border: 5px solid black;
-    height: 300px;
-    width: 400px;
- position: relative; 
- margin-left: 150px;
+    height: 100px;
+    width: 600px; 
+   
+   display: inline-flex;
+   flex-direction: row;
+  justify-content: space-between;
+   
+ 
+
+   
+
+  
 }
 
 .item:first-child {background-color: red;
@@ -13,19 +21,10 @@
 .item:nth-child(2) {background-color: blue;
                    }
 
-                   .item {height: 100px;
+                  .item {height: 100px;
                     width: 100px;
                     text-align: center;
                     color: blanchedalmond;
                 display: flex;
                 justify-content: center;
                 align-items:  center;}
-.item.item:first-child {position: absolute;
-margin-left: 300px;}
-.item:nth-child(2) {position: absolute;
-margin-left: 300px;
-margin-top: 100px;}
-.item:last-child {position: absolute;
-margin-left: 300px;
-margin-top: 200px;}
-

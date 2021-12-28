@@ -1,8 +1,16 @@
 .contenedor {
+  position: relative;
+  margin-left: 150px;
     border: 5px solid black;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px; 
    
+   display: inline-flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   
+
   
 }
 
@@ -13,12 +21,10 @@
 .item:nth-child(2) {background-color: blue;
                    }
 
-                  /* .item {height: 100px;
+                  .item {height: 100px;
                     width: 100px;
                     text-align: center;
                     color: blanchedalmond;
                 display: flex;
                 justify-content: center;
-                align-items:  center;}*/
-
-
+                align-items:  center;}
