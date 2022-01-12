@@ -4,4 +4,63 @@ body {background-color: pink;
         padding: 0;
     margin: 0;}
 
+p {padding-left: 20px;
+    padding-right: 20px;}
+
+h1 {text-align: center;
+padding-top: 25px;}
+
+iframe {padding: 20px;}
+
+.navbar {}
+
+#home {
+      padding-top: 50px ;
+    padding-bottom: 50px; 
+}
+
+ #members {
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    
+
+ }  
+
+ #gallery {
+     padding-top: 50px ;
+     padding-bottom: 50px;
+     border-top: 5px dashed palevioletred;
+ }
+
+ #news {padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+ #contact {padding-bottom: 50px;
+            padding-top: 50px;
+        border-top: 5px dashed palevioletred;}
+
+
+
+
+
+    @media screen (min-width: 576px) { 
+        img {size: 50%;}
+
+     }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+        
+        img {size: 50%}
+    
+    }
+    
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+       
+    
+    }
+    
+
  
