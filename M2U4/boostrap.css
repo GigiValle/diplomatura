@@ -1,4 +1,5 @@
-.imgnav {width: 100px;}
+.imgnav {width: 100px;
+padding-left: 15px;}
 
 body {background-color: pink;
         padding: 0;
@@ -10,9 +11,10 @@ p {padding-left: 20px;
 h1 {text-align: center;
 padding-top: 25px;}
 
-iframe {padding: 20px;}
 
-.navbar {}
+
+.container-fluid{padding-left: ;
+padding-right: 0;}
 
 #home {
       padding-top: 50px ;
@@ -22,8 +24,7 @@ iframe {padding: 20px;}
  #members {
     padding-top: 50px ;
     padding-bottom: 50px;
-    
-
+   
  }  
 
  #gallery {
@@ -42,25 +43,8 @@ iframe {padding: 20px;}
 
 
 
+#navbarpad {padding-left: 0;}
 
-
-    @media screen (min-width: 576px) { 
-        img {size: 50%;}
-
-     }
-    
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) { 
-        
-        img {size: 50%}
-    
-    }
-    
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { 
-       
-    
-    }
     
 
  
