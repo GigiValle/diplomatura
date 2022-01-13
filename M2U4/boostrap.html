@@ -13,54 +13,47 @@
 
 <body>
     <!-- NAVBAR -->
-    <div class="container-fluid" id="navbarpad">
-
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#home"><img class="imgnav" src="Blackpink_logo.svg.png" alt="Blackpink Logo"></a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-gradient">
+  <div class="container">
+    <a class="navbar-brand" href="#about"><img class="imgnav" src="Blackpink_logo.svg.png" alt="Blackpink Logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#members">Members</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#news">News</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="#about" class="nav-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#members" class="nav-link">Members</a>
+      </li>
+      <li class="nav-item">
+        <a href="#gallery" class="nav-link">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a href="#news" class="nav-link">News</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
     <div class="container-fluid">
     <h1>WELCOME TO THE GREATEST BLACKPINK'S FANSITE</h1>
     </div>
     
-    <!-- HOME -->
-    <div class="container-fluid" id="home">
+    <!-- ABOUT -->
+    <div class="container-fluid" id="about">
       <div class="row">
-         <div class="col-6 col-s-8 ">
+         <div class="col-6">
            <p>Blackpink (Korean: 블랙핑크; commonly stylized as BLACKPINK or BLΛƆKPIИK) is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé, and Lisa. The group debuted in August 2016 with their single album Square One, which featured "Whistle" and "Boombayah", their first number-one entries on South Korea's Gaon Digital Chart and the Billboard World Digital Song Sales chart, respectively.
 
             Blackpink is the highest-charting female Korean act on the Billboard Hot 100, peaking at number 13 with "Ice Cream" (2020), and on the Billboard 200, peaking at number two with The Album (2020), which is also the first-ever album by a Korean girl group to sell more than one million copies. They were the first Korean girl group to enter and top Billboard's Emerging Artists chart and to top the Billboard World Digital Song Sales chart three times. Blackpink was also the first female Korean act to receive a certification from the Recording Industry Association of America (RIAA) with their hit single "Ddu-Du Ddu-Du" (2018), whose music video is currently the most-viewed by a Korean group on YouTube. Their 2018 song "Kiss and Make Up", a collaboration with Dua Lipa, was the first by a Korean group to receive a certification from the British Phonographic Industry (BPI) and a platinum certification from the Australian Recording Industry Association (ARIA).
             </p>
          </div>
-         <div class="col-6 col-sm-2">
-           <img class="imghome" src="unnamed2.png" alt="Blackpink presentation pic">
+         <div class="col-6">
+           <img class="imghome img-fluid" src="unnamed2.png" alt="Blackpink presentation pic">
          </div>
       </div>
 
@@ -149,14 +142,14 @@
 
       <!-- NEWS -->
       <div class="container" id="news">
-        <div class="row d-flex justify-content-center">
+        <div class="row">
            <div class="col-6">
              <H2>LASTEST NEWS</H2>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae eos. Aliquid voluptatum distinctio cupiditate soluta nihil, explicabo deleniti nisi sit assumenda, ratione vel debitis mollitia odit eligendi hic blanditiis. Aliquid voluptatum distinctio cupiditate soluta nihil, explicabo deleniti nisi sit assumenda, ratione vel debitis mollitia odit eligendi hic blanditiis.</p>
            <br>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, voluptas. Maxime sapiente, ducimus aspernatur, aliquam eos, possimus cupiditate odit repellendus consectetur quidem obcaecati nesciunt debitis libero iste numquam error nostrum.</p>
             </div>
-           <div class="col-6 embed-responsive embed-responsive-16by9">
+           <div class="col-6 d-flex justify-content-center">
          
             <iframe class="embed-responsive-item" width="670" height="377" src="https://www.youtube.com/embed/ioNng23DkIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            
@@ -179,12 +172,30 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Commentaries:</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                  <button type="button" class="btn btn-dark">SEND</button>
+                  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">SEND</button>
             </div>
             <div class="col-6"></div>
         </div>
     </div>
 
+    <!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">MESSAGE SENT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thanks for joining our Newsletter!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Ok</button> -->
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
