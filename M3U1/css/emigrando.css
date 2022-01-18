@@ -1,0 +1,128 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+header img {
+    width: 13%;
+}
+
+nav {
+    background-color: gray;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+footer {
+    background-color: black;
+    clear: both;
+    color: whitesmoke;
+    padding: 1em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo {
+    background-color:black ;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*inicio home*/
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.bienvenidos, .testimonios {
+    box-sizing: border-box;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.testimonio {
+    background-color: gray ;
+    padding: 1em;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+
+    display: block;
+}
+
+/*fin home*/
