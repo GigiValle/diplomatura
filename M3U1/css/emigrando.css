@@ -126,3 +126,135 @@ h2 {
 }
 
 /*fin home*/
+
+/*inicio vivir*/
+
+.vivir img {
+    width: 70%;
+    padding-left: 150px;
+    /* padding-bottom: 25px; */
+   
+}
+
+.pasos img { padding-bottom: 50px;
+            padding-top: 15px;
+}
+
+.idioma img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.cultura img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+/*fin vivir*/
+
+/*inicio trabajar*/
+
+.trabajar p{
+    font-size: 0.8em;
+}
+
+.busqueda {
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.busqueda img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    border-width: 50px;
+}
+
+.busqueda h5, .busqueda h6 {
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+    margin: 0;
+}
+
+.busqueda h5 {
+    font-size: 0.9em;
+}
+
+.busqueda h6 {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.busqueda p {
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.busqueda:first-child {
+    margin-left: 0;
+}
+
+.busqueda {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+/*fin trabajar*/
+
+/*inicio estudiar*/
+
+.estudiar {
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden; 
+}
+
+.estudiar .info {
+    width: 75%;
+}
+
+.estudiar .info h4 {
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+
+.estudiar .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.estudiar img {
+    border-radius: 0.8em;
+}
+
+.estudiar:nth-child(even) img {
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.estudiar:nth-child(even) .info {
+    float: left;
+}
+
+.estudiar:nth-child(odd) img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.estudiar:nth-child(odd) .info {
+    float: right;
+}
+/*fin estudiar*/
