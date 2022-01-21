@@ -102,8 +102,12 @@ h2 {
 
 .testimonios {
     width: 25%;
+    padding-bottom: 25px;
 }
 
+.infohome{
+    padding-top: 50px;
+}
 .testimonio {
     background-color: gray ;
     padding: 1em;
@@ -112,7 +116,7 @@ h2 {
 .testimonio .cita {
     font-weight: bold;
     font-style: italic;
-    font-size: 1.4em;
+    font-size: 15px;
 
     display: block;
 }
@@ -179,6 +183,10 @@ h2 {
     margin-left: 2.25%;
     box-sizing: border-box;
     text-align: center;
+}
+
+.h2busqueda {
+    padding-top: 30px;
 }
 
 .busqueda img {
