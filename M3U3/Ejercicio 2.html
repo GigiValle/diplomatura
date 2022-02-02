@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+    <script>
+		var datos = ["", "", ""]
+		datos[0] = prompt ('Ingrese el primer valor:','');
+		datos[1] = prompt ('Ingrese el segundo valor:','');
+		datos[2] = prompt ('Ingrese el tercer valor:','');
+		
+		datos=parseInt(datos);
+
+	if (datos[0] > datos[1])
+	{
+		if (datos[0] > datos[2]) {
+			alert (datos[0] + " es el mayor");
+		} else {
+			alert (datos[2] + " es el mayor");
+		}
+	} else {
+		if (datos[1] > datos[2]) {
+			alert(datos[1] + " es el mayor");
+		} else {
+			alert (datos[2] + " es el mayor");
+		}
+	}	
+	
+	</script>
+</body>
+</html>
+
