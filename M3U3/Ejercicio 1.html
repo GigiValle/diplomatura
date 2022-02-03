@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
 </head>
 
 <body>
-		<script>
-			var dist;
-			dist=prompt ("Ingrese una distancia en metros:","");
+	<script>
+		var dist;
+		dist = prompt("Ingrese una distancia en metros:", "");
 
-			dist=parseInt(dist);
+		dist = parseInt(dist);
 
 
-			if (dist<=1000) {
-		 	 document.write('El medio de transporte apropiado es: a pie');
-			}  
-			else if (dist>1000 && dist<=10000) {
+		if (dist <= 1000) {
+			document.write('El medio de transporte apropiado es: a pie');
+		} else if (dist > 1000 && dist <= 10000) {
 			document.write('El medio de transporte apropiado es: bicicleta');
-			}
-			else if (dist >10000 && dist<=30000) {
+		} else if (dist > 10000 && dist <= 30000) {
 			document.write('El medio de transporte apropiado es: colectivo');
-			}
-			else if (dist>30000 && dist<=100000) {
+		} else if (dist > 30000 && dist <= 100000) {
 			document.write('El medio de transporte apropiado es: auto');
-			}
-			else if (dist>100000) {
+		} else if (dist > 100000) {
 			document.write('El medio de transporte apropiado es: avión');
-			}
-			else {
-			document.write('debe ingresar un distancia en metros mayor a 0');	
-			}
-		</script>
+		} else {
+			document.write('debe ingresar un distancia en metros mayor a 0');
+		}
+	</script>
 </body>
-</html>
 
+</html>
