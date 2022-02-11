@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+</head>
+
+<body id="mybody">
+    <h3>Cambiar color de fondo</h3>
+    <p>
+        <button onclick="Red()">Rojo</button>
+        <button onclick="Green()">Verde</button>
+        <button onclick="Yellow()">Amarillo</button>
+        <button onclick="Reset()">Reset</button>
+
+
+    </p>
+
+    <script>
+        function Red() {
+            var element = document.getElementById("mybody");
+            element.style.backgroundColor = 'red';
+        }
+
+        function Green() {
+            var element = document.getElementById("mybody");
+            element.style.backgroundColor = 'green';
+        }
+
+        function Yellow() {
+            var element = document.getElementById("mybody");
+            element.style.backgroundColor = 'yellow';
+        }
+        function Reset() {
+            var element = document.getElementById("mybody");
+            element.style.background = 'none';
+        }
+    </script>
+</body>
+
+</html>
