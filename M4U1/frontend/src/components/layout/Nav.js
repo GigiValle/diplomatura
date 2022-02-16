@@ -1,0 +1,341 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+header img {
+    width: 13%;
+}
+
+nav {
+    background-color: gray;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+footer {
+    background-color: black;
+    clear: both;
+    color: whitesmoke;
+    padding: 1em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo {
+    background-color:black ;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*inicio home*/
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.bienvenidos, .testimonios {
+    box-sizing: border-box;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios {
+    width: 25%;
+    padding-bottom: 25px;
+}
+
+.infohome{
+    padding-top: 50px;
+}
+.testimonio {
+    background-color: gray ;
+    padding: 1em;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+
+    display: block;
+}
+
+/*fin home*/
+
+/*inicio vivir*/
+
+.vivir img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block; */
+    
+    /* padding-bottom: 25px; */
+   
+}
+
+.pasos img { padding-bottom: 50px;
+            padding-top: 15px;
+}
+
+.idioma img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.cultura img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+/*fin vivir*/
+
+/*inicio trabajar*/
+
+.trabajar p{
+    font-size: 0.8em;
+}
+
+.trabajar img {
+    width: 85%;
+}
+
+.imgtrabajar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.busqueda {
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.h2busqueda {
+    padding-top: 30px;
+}
+
+.busqueda img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    border-width: 50px;
+}
+
+.busqueda h5, .busqueda h6 {
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+    margin: 0;
+}
+
+.busqueda h5 {
+    font-size: 0.9em;
+}
+
+.busqueda h6 {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.busqueda p {
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.busqueda:first-child {
+    margin-left: 0;
+}
+
+.busqueda {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+/*fin trabajar*/
+
+/*inicio estudiar*/
+
+.estudiar {
+ 
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden; 
+}
+
+
+.estudiar:nth-child(odd) {border: 3px solid red;}
+.estudiar:last-child {border: 3px solid yellow;}
+.estudiar {border: 3px solid black;}
+
+.estudiar .info {
+    width: 75%;
+}
+
+.estudiar .info h4 {
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+.estudiar .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.estudiar img {
+    border-radius: 0.8em;
+    width: 20%;
+}
+
+.estudiar:nth-child(even) img {
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.estudiar:nth-child(even) .info {
+    float: left;
+}
+
+.estudiar:nth-child(odd) img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.estudiar:nth-child(odd) .info {
+    float: right;
+}
+/*fin estudiar*/
+
+/*inicio contacto*/
+
+.columna {
+    width: 50%;
+    padding: 0.625em;
+    box-sizing: border-box;
+}
+
+.columna.left {
+    border-right:1px solid #ddd ;
+}
+
+.columna.right p{
+    font-size: 0.8em;
+}
+
+.columna.right ul li {
+    font-size: 0.8em;
+}
+
+.formulario label {
+    display: inline-block;
+    vertical-align: top;
+    width: 16%;
+}
+
+.formulario input, 
+.formulario textarea {
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 0.8em;
+    padding: 0.4em 0.6em;
+    width: 78%;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 12em;
+}
+
+.formulario input[type="submit"] {
+    background: #999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+    text-align: center;
+    width: auto;
+    float: right;
+}
+/*fin contacto*/
