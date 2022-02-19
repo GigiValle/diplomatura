@@ -3,7 +3,29 @@ import React from 'react';
 const NovedadesPage = (props) => {
     return (
 
-        <div>NovedadesPage</div>
+        <main className="holder">
+ 
+        <h2>Novedades</h2>
+        <div className="novedades">
+            <h3>Título</h3>
+            <h4>Subtítulo</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam nostrum non aliquam repudiandae laudantium iste voluptate, cupiditate, totam consequuntur hic aperiam placeat recusandae omnis blanditiis dolorum ipsa mollitia libero vero?</p>
+            <hr/>
+        </div>
+        <div className="novedades">
+            <h3>Título</h3>
+            <h4>Subtítulo</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam nostrum non aliquam repudiandae laudantium iste voluptate, cupiditate, totam consequuntur hic aperiam placeat recusandae omnis blanditiis dolorum ipsa mollitia libero vero?</p>
+            <hr/>
+        </div>
+        <div className="novedades">
+            <h3>Título</h3>
+            <h4>Subtítulo</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam nostrum non aliquam repudiandae laudantium iste voluptate, cupiditate, totam consequuntur hic aperiam placeat recusandae omnis blanditiis dolorum ipsa mollitia libero vero?</p>
+            <hr/>
+        </div>
+    </main>
+
 
     );
 }
