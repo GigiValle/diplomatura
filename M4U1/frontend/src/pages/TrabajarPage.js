@@ -19,35 +19,35 @@ const TrabajarPage = (props) => {
             <h5>Linkedin</h5>
             <h6>Buscá en Linkedin</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda.</p>
-            <a href="https://de.linkedin.com " target="_blank">Click aquí</a>
+            <a href="https://de.linkedin.com " target="_blank" rel="noreferrer">Click aquí</a>
         </div>
         <div className="busqueda">
             <img src="images/trabajar/Glassdoor-Logotipo-2007-2017.jpg" alt=""/>
             <h5>Glassdoor</h5>
             <h6>Buscá en Glassdoor</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda.</p>
-            <a href="https://www.glassdoor.de/index.htm" target="_blank">Click aquí</a>
+            <a href="https://www.glassdoor.de/index.htm" target="_blank" rel="noreferrer">Click aquí</a>
         </div>
         <div className="busqueda">
             <img src="images/trabajar/Indeed-Logo.png" alt=""/>
             <h5>Indeed</h5>
             <h6>Buscá en Indeed</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda.</p>
-            <a href="https://de.indeed.com" target="_blank">Click aquí</a>
+            <a href="https://de.indeed.com" target="_blank" rel="noreferrer">Click aquí</a>
         </div>
         <div className="busqueda">
             <img src="images/trabajar/xing-logo.jpg" alt=""/>
             <h5>Xing</h5>
             <h6>Buscá en Xing</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda.</p>
-            <a href="https://www.xing.com" target="_blank">Click aquí</a>
+            <a href="https://www.xing.com" target="_blank" rel="noreferrer">Click aquí</a>
         </div>
         <div className="busqueda">
             <img src="images/trabajar/monsterred.jpg" alt=""/>
             <h5>Monster</h5>
             <h6>Buscá en Monster</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda.</p>
-            <a href="https://www.monster.de" target="_blank">Click aquí</a>
+            <a href="https://www.monster.de" target="_blank" rel="noreferrer">Click aquí</a>
         </div>
 
        </div>
