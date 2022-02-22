@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/components/pages/IndexPage.css';
+
 
 const IndexPage = (props) => {
     return (

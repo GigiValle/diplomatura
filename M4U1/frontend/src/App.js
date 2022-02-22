@@ -1,5 +1,5 @@
-//import './App.css';
-
+import '../src/App.css'
+import '../src/styles/components/normalize.css'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
 

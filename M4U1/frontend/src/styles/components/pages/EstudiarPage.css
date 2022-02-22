@@ -1,0 +1,73 @@
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0 0 1em;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+
+.estudiar {
+ 
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden; 
+}
+
+
+.estudiar:nth-child(odd) {border: 3px solid red;}
+.estudiar:last-child {border: 3px solid yellow;}
+.estudiar {border: 3px solid black;}
+
+.estudiar .info {
+    width: 75%;
+}
+
+.estudiar .info h4 {
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+.estudiar .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.estudiar img {
+    border-radius: 0.8em;
+    width: 20%;
+}
+
+.estudiar:nth-child(even) img {
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.estudiar:nth-child(even) .info {
+    float: left;
+}
+
+.estudiar:nth-child(odd) img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.estudiar:nth-child(odd) .info {
+    float: right;
+}

@@ -1,0 +1,85 @@
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0 0 1em;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+
+.trabajar p{
+    font-size: 0.8em;
+}
+
+.trabajar img {
+    width: 85%;
+}
+
+.imgtrabajar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.busqueda {
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.h2busqueda {
+    padding-top: 30px;
+}
+
+.busqueda img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    border-width: 50px;
+}
+
+.busqueda h5, .busqueda h6 {
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+    margin: 0;
+}
+
+.busqueda h5 {
+    font-size: 0.9em;
+}
+
+.busqueda h6 {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.busqueda p {
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.busqueda:first-child {
+    margin-left: 0;
+}
+
+.busqueda {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
