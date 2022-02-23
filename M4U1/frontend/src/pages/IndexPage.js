@@ -4,7 +4,7 @@ import '../styles/components/pages/IndexPage.css';
 
 const IndexPage = (props) => {
     return (
-        <main>
+        <main className="holder">
 
         <div className='homeimg'>
             <img src='images/home/köln01.jpg' alt="Köln"/>
