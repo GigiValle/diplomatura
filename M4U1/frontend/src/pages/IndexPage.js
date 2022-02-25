@@ -7,7 +7,7 @@ const IndexPage = (props) => {
         <main className="holder">
 
         <div className='homeimg'>
-            <img src='images/home/köln01.jpg' alt="Köln"/>
+            <img src='images/home/koln01.jpg' alt="Koln"/>
         </div>
 
         <div className='columnas'>
