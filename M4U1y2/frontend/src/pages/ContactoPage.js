@@ -51,11 +51,3 @@ const ContactoPage = (props) => {
 
 export default ContactoPage;
 
-var express = require('express');
-var router = express.Router();
-
-router.get('/', function(req, res, next) {
-    res.send('Contacto Página');
-});
-
-module.exports = router;

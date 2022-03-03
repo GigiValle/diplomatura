@@ -15,9 +15,6 @@ import TrabajarPage from './pages/TrabajarPage';
 import VivirPage from './pages/VivirPage';
 import { application } from 'express';
 
-var contactoRouter = require('./routes/contacto');
-app.use('/contacto', contactoRouter);
-
 function App() {
   return (
 
