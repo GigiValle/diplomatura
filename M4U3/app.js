@@ -6,6 +6,9 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var pruebaRouter = require('./routes/prueba');
+var gigiaRouter = require('./routes/gigia');
+var gigibRouter = require('./routes/gigib');//MI PAG DE PRUEBA 
 
 var app = express();
 
@@ -21,6 +24,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/prueba', pruebaRouter);
+app.use('/gigia', gigiaRouter);
+app.use('/gigib', gigibRouter);//RUTA DE PRUEBA
+
+app.get('/prueba', function(req, res){
+  res.send('Hola soy la primera prueba de Gigi')
+});
+app.get('/gigia', function(req, res){
+  res.send('Hola soy la segunda prueba de Gigi')
+}); 
+app.get('/gigib', function(req, res){
+  res.send('Hola soy la tercera prueba de Gigi')
+});  //MI PRIMER PRUEBA
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
