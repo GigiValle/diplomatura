@@ -24,7 +24,50 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-var pool = require('./models/bd'); 
+var pool = require('./models/bd'); //bd.js
+
+//SELECT
+// pool.query('select * from Empleados').then(function (resultados){
+//         console.log(resultados)
+// });
+
+
+//INSERT
+//  var obj {
+//    nombre: 'Juan',
+//    apellido: 'Lopez',
+//    trabajo: 'docente',
+//    edad: 38,
+//    salario: 15000,
+//    mail: 'juanlopez@gmail.com'
+//  }
+
+//  pool.query('insert into Empleados set ?', [obj]).then(function(resultados)
+//       {
+//         console.log(resultados)
+//       });
+
+
+//UPDATE
+  // var id = 1;
+  // var obj = {
+  //   nombre: 'Pablo',
+  //   apellido: 'Gomez'
+  // }
+
+  // pool.query('update Empleados set ? where id_emp=?', [obj, id]).then (function(resultados)
+  //   {
+  //       console.log(resultados);
+  //    });
+
+
+//DELETE
+    // var id = 26
+    // pool.query('delete from Empleados where id_emp=?', [id]).then(function(resultados)
+    // {
+    //   console.log(resultados);
+    // });
+
 
 
 // catch 404 and forward to error handler
