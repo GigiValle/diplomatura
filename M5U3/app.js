@@ -27,9 +27,9 @@ app.use('/users', usersRouter);
 var pool = require('./models/bd'); //bd.js
 
 //SELECT
-// pool.query('select * from Empleados').then(function (resultados){
-//         console.log(resultados)
-// });
+pool.query('select * from Empleados').then(function (resultados){
+        console.log(resultados)
+});
 
 
 //INSERT
