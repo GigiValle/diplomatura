@@ -1,0 +1,43 @@
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0 0 1em;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+
+.vivir img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block; */
+    
+    /* padding-bottom: 25px; */
+   
+}
+
+.pasos img { padding-bottom: 50px;
+            padding-top: 15px;
+}
+
+.idioma img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.cultura img {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
