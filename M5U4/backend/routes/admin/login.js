@@ -3,13 +3,13 @@ var router = express.Router();
 var usuariosModel = require('./../../models/usuariosModel');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('admin/login',{
+router.get('/', function (req, res, next) {
+  res.render('admin/login', {
     layout:'admin/layout'
   });
 });
 
-router.get('/logout', function(req, res, next){
+router.get('/logout', function(req, res, next) {
   req.session.destroy();
   res.render('admin/login', {
     layout: 'admin/layout'
@@ -36,6 +36,6 @@ router.post('/', async (req, res, next) => {
   } catch (error) {
     console.log(error);
   }
-});
+})
 
 module.exports = router;
