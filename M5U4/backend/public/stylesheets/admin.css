@@ -11,12 +11,11 @@ header h1 {
     border: 5px rgb(228, 11, 11) dotted ;
 }
 
-.form-control {border: 3px rgb(243, 232, 14) solid;}
-
+/* .form-control {border: 3px rgb(243, 232, 14) solid;} */
+/* 
 .text-right {float: right;}
 
 .btn-success {float: right;
 }
 
-
-/* .col-2.text-right {float: right;} */
+.btn-success a {float: right;} */
