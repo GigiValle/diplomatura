@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NovedadItem from '../components/layout/novedades/NovedadItem';
 
-import React from 'react';
 import '../../src/styles/components/pages/NovedadesPage.css';
 
 
