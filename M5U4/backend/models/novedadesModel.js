@@ -13,7 +13,7 @@ async function getNovedades()
     async function insertNovedad(obj)
     {
         try {
-            var query = 'insert * from novedades set ?';
+            var query = 'insert into novedades set ?';
             var rows = await pool.query(query, [obj]);
             return rows;
         } catch (error) {
@@ -33,7 +33,7 @@ async function getNovedades()
     
     async function getNovedadById(id)
     {
-            var query = 'select * from novedades here id = ?';
+            var query = 'select * from novedades where id = ?';
             var rows = await pool.query(query, [id]);
             return rows[0];
         

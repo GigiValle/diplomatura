@@ -16,7 +16,6 @@ router.get('/', async function(req, res, next) {
 router.get('/agregar', (req, res, next) => {
   res.render('/admin/agregar', {
     layout: 'admin/layout',
-    agregar
   });
 } );
 
@@ -68,7 +67,7 @@ router.post('/agregar', async (req, res, next) => {
         }
 
         await novedadesModel.modificarNovedadById(obj, req.body.id);
-        res.redirect('/admin/modificar');
+        res.redirect('/admin/novedades');
       
       } catch (error) {
         console.log(error)
