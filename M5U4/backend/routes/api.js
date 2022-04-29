@@ -6,7 +6,7 @@ var cloudinary = require('cloudinary').v2;
 router.get('/novedades', async function (req, res, next){
     let novedades =await novedadesModel.getNovedades();
 
-    novedades=novedades.determinePacket(novedades => {
+    novedades=novedades.map(novedades => {
         if (novedades.img_id) {
             const imagen =cloudinary.url(novedades.img_id, {
                 width:960,

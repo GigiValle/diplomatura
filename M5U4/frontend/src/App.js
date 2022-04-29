@@ -13,7 +13,7 @@ import IndexPage from './pages/IndexPage';
 import NovedadesPage from './pages/NovedadesPage';
 import TrabajarPage from './pages/TrabajarPage';
 import VivirPage from './pages/VivirPage';
-import { application } from 'express';
+//import { application } from 'express';
 
 function App() {
   return (
