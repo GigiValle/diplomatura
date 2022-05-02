@@ -71,3 +71,12 @@
 .estudiar:nth-child(odd) .info {
     float: right;
 }
+
+
+.estudiar .info p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.estudiar .info h4 {
+    font-size: 1.4em;}
